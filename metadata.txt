@@ -1,0 +1,26 @@
+[general]
+name=CAV
+qgisMinimumVersion=3.0
+description=Realiza o cálculo, comparação e análises estatísticas do volume e área referente a determinada cota de um modelo digital de terreno.
+version=1.0
+author=Felipe Catão Mesquita Santos; Julio Cesar de Oliveira; Italo Oliveira Ferreira
+email=felipe.mesquita@ufv.com; oliveirajc@ufv.br; italo.ferreira@ufv.br
+
+about=Este plugin possibilita executar o cálculo do volume e área referente a determinada cota de um modelo digital de terreno, gerando uma relatório HTML das informações preenchidas da área análisada, um gráfico referente a Curva COTA x AREA x VOLUME e uma tabela .CSV com cota, volume e área do modelo análisado. Ao inserir dois modelos digitais de terrno para análise será feita a comparação e análise estatística de assoreamento. Para a aplicação é necessário dispor de pelo menos um ou dois (Referência e Atualizado) modelos raster correspondente à uma área de reservatório, uma camada vetorial correspondente ao limite da área ser análisada.
+
+tracker=https://github.com/felipesantoc/curvaCAV/issues
+repository=https://github.com/felipesantoc/curvaCAV
+hasProcessingProvider=no
+changelog=1.0 - versão inicial
+
+tags=analysis, CAV, ANA, Qualidade, Hidrografia, Batimetria, Assoreamento, Reservatório, Brasil, Brazil, UFV
+
+homepage=https://github.com/felipesantoc/curvaCAV
+category=Plugins
+icon=curva_CAV.png
+experimental=False
+deprecated=False
+#plugin_dependencies=
+#category= 
+server=False
+
